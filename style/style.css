@@ -1,3 +1,8 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 /*HEADER*/
 
 #logo {
@@ -26,6 +31,9 @@ header {
 body {
     background: url(background-1-web.png) no-repeat center center fixed;
     background-size: cover;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
 }
 
 .divider {
@@ -35,6 +43,10 @@ body {
 }
 
 /*FLIPPER*/
+
+#books {
+    margin-bottom: 50px;
+}
 
 /* entire container, keeps perspective */
 
@@ -154,6 +166,10 @@ body {
     background-color: #00a3a5;
     margin-top: 20px;
     padding: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0
 }
 
 .text-center {
